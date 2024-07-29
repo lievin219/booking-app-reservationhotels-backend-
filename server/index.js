@@ -22,7 +22,7 @@ dotenv.config()
    mongoose.connect('mongodb+srv://gakizalievin219:kLjoo3ve8fVXHRFR@cluster0.nqaqfls.mongodb.net/').then(()=>{
      console.log('database  connected succesfully!')
    }).catch((err)=>{
-    console.log(`database failed to connect du to ${err}`)
+    console.log(`database failed to connect due to ${err}`)
 })
 
 
